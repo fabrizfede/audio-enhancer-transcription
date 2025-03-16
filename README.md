@@ -1,21 +1,21 @@
 # audio-enhancer-transcription
 Audio Enhancer AI optimizes audio quality and reduces noise to achieve the most accurate speech transcription possible. Using deep learning and OpenAI's Whisper, it enhances transcription fidelity, making it ideal for processing voice recordings in noisy environments.
-# 🎵 Audio Enhancer & Transcriptor
+#  Audio Enhancer & Transcriptor
 
-## 📌 Introduction
+##  Introduction
 
 **Audio Enhancer & Transcriptor** is an advanced audio post-processing system designed to improve sound quality, reduce background noise, and achieve the most accurate speech transcription possible using **OpenAI's Whisper**.
 
 This tool is ideal for those working with **podcasts, voice recordings, interviews, and automatic transcriptions**, ensuring enhanced audio quality and more precise speech-to-text conversion.
 
-## 🎯 Objectives
+##  Objectives
 
 - **Improve audio quality** by eliminating background noise and artifacts.
 - **Obtain more accurate transcriptions** from voice recordings.
 - **Automate the process** for a simple and efficient workflow.
 - **Facilitate usage through a Jupyter Notebook interface**.
 
-## 🛠 Requirements
+##  Requirements
 
 Before using the project, ensure you have installed:
 
@@ -24,7 +24,7 @@ Before using the project, ensure you have installed:
 - **OpenAI's Whisper model**
 - **FFmpeg** (for handling audio files, installable via `apt-get install ffmpeg` or `brew install ffmpeg` on macOS)
 
-## 🚀 Installation
+##  Installation
 
 Clone the repository and install the required dependencies:
 
@@ -44,7 +44,7 @@ pip install notebook
 jupyter notebook
 ```
 
-## 📂 Project Structure
+##  Project Structure
 
 ```bash
 📂 audio-enhancer-transcriptor
@@ -59,11 +59,11 @@ jupyter notebook
 │── 📜 .gitignore         # Files to exclude
 ```
 
-## 🎙️ Processing Flow
+## 🎙 Processing Flow
 
 The following diagram illustrates the audio processing flow within the project:
 
-![Processing Flow](path_to_diagram.png)
+
 
 1. **Input Audio** - The original audio file is loaded.
 2. **Noise Reduction** - A filter is applied to reduce background noise.
@@ -71,7 +71,7 @@ The following diagram illustrates the audio processing flow within the project:
 4. **Whisper Transcription** - The enhanced audio is processed with Whisper to generate a transcription.
 5. **Final Transcript** - A text file with the most accurate transcription is obtained.
 
-## 🎙️ Execution
+## 🎙 Execution
 
 ### 1️⃣ **Audio Enhancement**
 
